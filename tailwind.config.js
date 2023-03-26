@@ -9,7 +9,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // fontSize: {
+
+      // },
+      spacing: {
+        '128': '32rem',
+        '192': '45rem',
+
+      },
+      backgroundImage: {
+        //path must be relative to global css not config.js
+        'arco': "url('../../public/images/bg-arco.jpeg')",
+      }, 
+    },
   },
   plugins: [],
 }
