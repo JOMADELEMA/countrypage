@@ -47,7 +47,7 @@ export default function Home() {
           <p className="text-md text-center">Sample text 1</p>
           <p className="text-3xl text-center">Tikal</p>
         </div>
-        <div className="-translate-y-10 lg:-translate-y-16 place-self-center cursor-pointer flex flex-col hover:saturate-150 text-white hover:text-amber-50 hover:font-semibold">
+        <div className="-translate-y-10 lg:-translate-y-16 place-self-center cursor-pointer flex flex-col hover:saturate-150 text-white hover:text-amber-50 hover:font-semibold ">
           <div className=" rounded-full h-24 w-24  bg-semuc-square bg-cover self-center hover:border-2 border-amber-100"></div>
           <p className="text-md text-center">Sample text 1</p>
           <p className="text-3xl text-center">Semuc</p>
