@@ -4,9 +4,14 @@ const StateContext = createContext();
 
 export const ContextProvider = ({ children }) => {
     const [sidebarVisible, setSidebarVisible] = useState(false);
+    const [navbarVisible, setNavbarVisible] = useState(false);
 
     const toggleSidebar = (isVisible) => {
         setSidebarVisible(!isVisible);
+    }
+    
+    const toggleNavbar = (isVisible) => {
+        setNavbarVisible(!isVisible);
     }
 
     return (
@@ -14,7 +19,9 @@ export const ContextProvider = ({ children }) => {
             value={{
 
                 sidebarVisible,
-                toggleSidebar
+                toggleSidebar, 
+                navbarVisible, 
+                toggleNavbar
             }
             }
         >
