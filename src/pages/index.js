@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:flex lg:flex-row-reverse lg:justify-between  h-192">
+      <div className="lg:flex lg:flex-row-reverse lg:justify-between ">
         <div
           className=" mt-20 mx-10 flex flex-col lg:w-160 xl:w-1/2 "
           id="guatemalan-culture"
@@ -85,13 +85,13 @@ export default function Home() {
           <h1 className="text-amber-50 text-2xl xl:text-5xl font-semibold mb-5 text-center">
             Guatemalan Culture
           </h1>
-          <p className="text-amber-50 text-md mb-5 xl:text-xl px-5">
+          <p className="text-amber-50 text-md mb-5 lg:text-lg xl:text-xl px-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             cumque est reiciendis et culpa tempore pariatur, magnam ducimus
             cupiditate, quas ea cum libero unde! Accusantium delectus quae quam
             commodi corporis.
           </p>
-          <p className="text-amber-50 text-md xl:text-xl px-5">
+          <p className="text-amber-50 text-md lg:text-lg xl:text-xl px-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             cumque est reiciendis et culpa tempore pariatur, magnam ducimus
             cupiditate, quas ea cum libero unde! Accusantium delectus quae quam
@@ -106,8 +106,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mt-20 mx-10 flex justify-center lg:w-96 place-items-center  xl:w-1/2">
-          <div className="relative h-80 w-60 xl:h-160 xl:w-128 overflow-hidden">
+        <div className="mt-20 mx-10 flex justify-center lg:w-1/2 place-items-center  xl:w-1/2">
+          <div className="relative h-80 w-60 lg:h-128 lg:w-96 xl:h-160 xl:w-128 overflow-hidden">
             <Image
               className=" rounded-lg object-cover"
               src="/images/tikal_square.jpeg"
