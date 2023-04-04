@@ -1,6 +1,6 @@
 import React from 'react'
 import { IconX, IconSearch } from '@tabler/icons-react'
-import { useStateContext } from '../contexts/ContextProvider'
+import { useStateContext } from '@contexts/ContextProvider'
 
 
 const Sidebar = () => {

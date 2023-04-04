@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
 import { IconMenu2 } from "@tabler/icons-react";
-import Sidebar from "../../components/Sidebar";
-import Navbar from "../../components/Navbar";
-import { useStateContext } from "../../contexts/ContextProvider";
+import Sidebar from "@components/Sidebar";
+import Navbar from "@components/Navbar";
+import { useStateContext } from "@contexts/ContextProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
